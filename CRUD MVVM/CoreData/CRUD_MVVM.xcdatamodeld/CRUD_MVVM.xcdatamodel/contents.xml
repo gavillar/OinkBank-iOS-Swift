@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AllPix" representedClassName=".AllPix" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="agency" optional="YES" attributeType="String"/>
+        <attribute name="copyPastePix" optional="YES" attributeType="String"/>
+        <attribute name="cpfKey" optional="YES" attributeType="String"/>
+        <attribute name="phoneKey" optional="YES" attributeType="String"/>
+        <attribute name="randomKey" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Clients" representedClassName=".Clients" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="agency" optional="YES" attributeType="String"/>
+        <attribute name="balance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="birthDate" optional="YES" attributeType="String"/>
+        <attribute name="cpf" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="monthlyIncome" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="netWorth" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Clients" positionX="-63" positionY="-18" width="128" height="179"/>
+        <element name="AllPix" positionX="-63" positionY="54" width="128" height="14"/>
+    </elements>
+</model>
